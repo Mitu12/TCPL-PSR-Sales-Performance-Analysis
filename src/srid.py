@@ -4,8 +4,8 @@ import pyodbc as db
 conn = db.connect('DRIVER={SQL Server};'
                   'SERVER=10.168.2.168;'
                   'DATABASE=TCPL_SECONDARY;'
-                  'UID=sa;'
-                  'PWD=erp;')
+                  'UID=*;'
+                  'PWD=*;')
 
 sr_df = pd.read_sql_query(""" select  Hierarchy_Emp.srid, SRNAME from Hierarchy_Emp
         left join SalesInvoices 
