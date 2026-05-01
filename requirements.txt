@@ -1,0 +1,7 @@
+pandas
+pyodbc
+openpyxl
+pillow
+matplotlib
+python-dotenv
+jupyter
