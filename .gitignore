@@ -1,1 +1,11 @@
+.env
+__pycache__/
+*.pyc
+.DS_Store
 
+Data/
+Images/
+reports/*.xlsx
+
+*.log
+.ipynb_checkpoints/
